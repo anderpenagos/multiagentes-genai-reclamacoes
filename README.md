@@ -17,14 +17,7 @@ A interação com o usuário ocorre em tempo real por meio de parâmetros passad
 ---
 
 ## 2. Diagrama de Arquitetura
-```flowchart LR
-  U[Usuário / Apresentador] -->|"1. Define empresa e limite"| CLI(CLI Interface)
-  CLI -->|"2. Requisição"| Coletor[Agente Coletor Web]
-  Coletor -->|"JSON bruto"| Analista[Agente Analista]
-  Analista -->|"JSON estruturado"| Estrategista[Agente Estratégista]
-  Estrategista -->|"Relatório estratégico"| CLI
-  CLI -->|"Exibe relatório"| U
-```
+
 
 ```plaintext
 Usuário / Apresentador
