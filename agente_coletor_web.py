@@ -9,11 +9,7 @@ from selenium.common.exceptions import TimeoutException
 
 
 def coletar_reclamacoes_reais(nome_empresa: str, limite: int = 5) -> str:
-    """
-    Busca as últimas reclamações usando scroll incremental e coleta diretamente dos cards pelo ID 'site_bp_lista_ler_reclamacao'.
-    Extrai título (h4) dentro do <a> e o texto do <p> irmão imediatamente após.
-    Retorna o caminho do arquivo JSON gerado com os campos: id, titulo, link, texto.
-    """
+
     print(f"Agente de Coleta Web: iniciando busca por '{nome_empresa}' (limite={limite})...")
     url_lista = f"https://www.reclameaqui.com.br/empresa/{nome_empresa}/lista-reclamacoes/"
 
