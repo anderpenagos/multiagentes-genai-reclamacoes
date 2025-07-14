@@ -18,9 +18,7 @@ Seja direto e foque em insights acionáveis.
 """
 
 def gerar_relatorio_estrategico(lista_de_analises: list) -> str:
-    """
-    Recebe uma lista de reclamações analisadas e gera um relatório de insights.
-    """
+
     print("\nAgente Estrategista: Gerando relatório de insights...")
     
 
