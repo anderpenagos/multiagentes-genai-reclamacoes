@@ -96,7 +96,7 @@ CLI Interface → Exibe Relatório
 
 python -m venv venv
 
-### para windows:
+##### para windows:
 .\venv\Scripts\activate
 
 pip install requests beautifulsoup4
@@ -105,7 +105,7 @@ pip install openai
 
 pip install selenium webdriver-manager
 
-### para windows:
+##### para windows:
 set OPENAI_API_KEY=sua_chave_aqui
 
 python main.py
