@@ -12,7 +12,7 @@ O sistema é composto por três agentes principais, orquestrados via uma interfa
 - **Agente Analista**: estrutura cada reclamação em JSON, extraindo campos como produto, motivo, sentimento e sugestões.
 - **Agente Estratégista**: gera um relatório executivo em português, com insights e recomendações.
 
-A interação com o usuário ocorre em tempo real por meio de parâmetros passados à CLI (`--empresa` e `--limite`) no memento até 10 reclamaçôes.
+A interação com o usuário ocorre em tempo real por meio de parâmetros passados à CLI (`--empresa` e `--limite`) no momento até 10 reclamaçôes.
 
 ---
 
