@@ -94,19 +94,19 @@ CLI Interface → Exibe Relatório
 
 ### no terminal, na pasta dos script, executa cada linha de comandos
 
-python -m venv venv
+- python -m venv venv
 
 ##### para windows:
-.\venv\Scripts\activate
+- .\venv\Scripts\activate
 
-pip install requests beautifulsoup4
+- pip install requests beautifulsoup4
 
-pip install openai
+- pip install openai
 
-pip install selenium webdriver-manager
+- pip install selenium webdriver-manager
 
 ##### para windows:
-set OPENAI_API_KEY=sua_chave_aqui
+- set OPENAI_API_KEY=sua_chave_aqui
 
-python main.py
+- python main.py
 
