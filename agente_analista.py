@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-
+# No terminal antes de executar
 # Windows: set OPENAI_API_KEY=sua_chave_aqui
 # Mac/Linux: export OPENAI_API_KEY=sua_chave_aqui
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
