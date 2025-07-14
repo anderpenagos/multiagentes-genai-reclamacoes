@@ -18,22 +18,30 @@ A interação com o usuário ocorre em tempo real por meio de parâmetros passad
 
 ## 2. Diagrama de Arquitetura
 
-```mermaid
-flowchart LR
-  U[Usuário / Apresentador] -->|1. Define empresa e limite| CLI(CLI Interface)
-  CLI -->|2. Requisição| Coletor[Agente Coletor Web]
-  Coletor -->|3. JSON bruto| Analista[Agente Analista]
-  Analista -->|4. JSON estruturado| Estrategista[Agente Estratégista]
-  Estrategista -->|5. Relatório executivo| CLI
-  CLI -->|6. Exibe relatório| U
+```plaintext
+Usuário / Apresentador
+     |
+     v
+CLI Interface
+     |
+     v
+Agente Coletor Web
+     |
+     v
+Agente Analista
+     |
+     v
+Agente Estratégista
+     |
+     v
+CLI Interface → Exibe Relatório
 ```
 
-1. **Usuário** define na hora o nome da empresa e quantas reclamações deseja analisar.
-2. **CLI Interface** recebe os parâmetros e invoca o agente coletor.
-3. **Agente Coletor Web** retorna um arquivo JSON com todas as reclamações coletadas.
-4. **Agente Analista** processa cada reclamação, gerando um JSON enriquecido.
-5. **Agente Estratégista** consome as análises estruturadas e produz um texto resumido.
-6. **CLI** apresenta o relatório final ao usuário.
+1. **Usuário** define o nome da empresa e o número de reclamações.
+2. **CLI Interface** recebe parâmetros e dispara o coletor.
+3. **Agente Coletor Web** retorna JSON bruto de reclamações.
+4. **Agente Analista** gera JSON estruturado das reclamações.
+5. **Agente Estratégista** produz relatório executivo.
 
 ---
 
