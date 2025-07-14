@@ -20,9 +20,7 @@ Responda APENAS com o objeto JSON, sem nenhum texto adicional.
 """
 
 def analisar_reclamacao(texto_reclamacao: str) -> dict:
-    """
-    Usa GenAI para analisar o texto de uma reclamação e retornar dados estruturados.
-    """
+
     print(f"\nAgente Analista: Analisando reclamação...")
     
     try:
