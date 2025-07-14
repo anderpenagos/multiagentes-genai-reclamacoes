@@ -76,7 +76,7 @@ flowchart LR
 
 ---
 
-> **
+
 ## Como Rodar
 
 ### Pré-requisitos
@@ -101,4 +101,4 @@ pip install selenium webdriver-manager
 set OPENAI_API_KEY=sua_chave_aqui
 
 python main.py
-**
+
