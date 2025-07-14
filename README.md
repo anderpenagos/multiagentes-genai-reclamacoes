@@ -111,11 +111,10 @@ CLI Interface → Exibe Relatório
    ```bash
    pip install selenium webdriver-manager
    ```
-##### para windows:
    ```bash
    set OPENAI_API_KEY=sua_chave_aqui
    ```
-      ```bash
+   ```bash
    python main.py --empresa itau --limite 5
    ```
 
