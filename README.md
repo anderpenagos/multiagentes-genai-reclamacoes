@@ -28,25 +28,6 @@ flowchart LR
   CLI -->|"Exibe relatório"| U
 ```
 
-```plaintext
-Usuário / Apresentador
-     |
-     v
-CLI Interface
-     |
-     v
-Agente Coletor Web
-     |
-     v
-Agente Analista
-     |
-     v
-Agente Estratégista
-     |
-     v
-CLI Interface → Exibe Relatório
-```
-
 1. **Usuário** define o nome da empresa e o número de reclamações.
 2. **CLI Interface** recebe parâmetros e dispara o coletor.
 3. **Agente Coletor Web** retorna JSON bruto de reclamações.
