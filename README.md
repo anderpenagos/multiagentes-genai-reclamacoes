@@ -1,6 +1,6 @@
 # Arquitetura do Protótipo Multiagentes GenAI
 
-Este documento descreve a arquitetura do protótipo que integra dois agentes de GenAI para análise de reclamações financeiras. A ideia inicial era fazer um analises e tratamento de reclamações Banco central (BANCEN), tentando reduzir o esforço operacional e melhorar o desempenho na resolução de reclamações. Não tendo os dados das reclmações do BANCEN opotei por recopilar algumas reclamções do site https://www.reclameaqui.com.br/ para alguma entidade financieria. O objetivo é apresentar de forma clara o fluxo de comunicação, os papéis de cada agente e as tecnologias empregadas.
+Este documento descreve a arquitetura do protótipo que integra dois agentes de GenAI para análise de reclamações financeiras. A ideia inicial era fazer um analises e tratamento de reclamações Banco central (BANCEN), tentando reduzir o esforço operacional e melhorar o desempenho na resolução de reclamações. Não tendo os dados das reclamações do BANCEN opotei por recopilar algumas reclamções do site https://www.reclameaqui.com.br/ para alguma entidade financieria. O objetivo é apresentar de forma clara o fluxo de comunicação, os papéis de cada agente e as tecnologias empregadas.
 
 ---
 
@@ -108,5 +108,5 @@ CLI Interface → Exibe Relatório
 ##### para windows:
 - set OPENAI_API_KEY=sua_chave_aqui
 
-- python main.py
+- python main.py --empresa itau --limite 5
 
