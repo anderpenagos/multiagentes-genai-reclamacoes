@@ -1,6 +1,6 @@
 import os
 from openai import OpenAI
-
+import json
 # No terminal antes de executar
 # Windows: set OPENAI_API_KEY=sua_chave_aqui
 # Mac/Linux: export OPENAI_API_KEY=sua_chave_aqui
