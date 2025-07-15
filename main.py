@@ -41,6 +41,7 @@ def main():
     analises = []
     for rec in reclamacoes:
         analise = analisar_reclamacao(rec["texto"])
+        analise["link"] = rec.get("link", "")
         analise["id_reclamacao"] = rec["id"]
         analises.append(analise)
 
